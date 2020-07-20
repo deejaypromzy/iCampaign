@@ -68,7 +68,7 @@ public class YoutubeVideo extends YouTubeBaseActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        youTubePlayerView.initialize("AIzaSyAauEvsvCI3bxEDGEkE6Gw90AvpqB6YFRQ", onInitializedListener);
+        youTubePlayerView.initialize("", onInitializedListener);
 
     }
 }
