@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_main">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Comments"
+            android:icon="@drawable/chat"
+            android:title="Chat" />
+
+        <item
+            android:id="@+id/nav_vision"
+            android:icon="@drawable/vision"
+            android:title="Vision" />
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/dashboard"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_Achievements"
+            android:icon="@drawable/ic_trophy"
+            android:title="Achievements" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/info"
+            android:title="About" />
+    </group>
+</menu>
