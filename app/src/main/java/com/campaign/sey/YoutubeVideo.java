@@ -27,20 +27,18 @@ public class YoutubeVideo extends YouTubeBaseActivity {
 
         youTubePlayerView =  findViewById(R.id.youtube_view);
 
-      //  youTubePlayerView.initialize("AIzaSyAauEvsvCI3bxEDGEkE6Gw90AvpqB6YFRQ", onInitializedListener);
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                youTubePlayerView.initialize("AIzaSyAauEvsvCI3bxEDGEkE6Gw90AvpqB6YFRQ", onInitializedListener);
+                youTubePlayerView.initialize("", onInitializedListener);
 
             }
         });
 
 
-        //youTubePlayerView.initialize("AIzaSyAauEvsvCI3bxEDGEkE6Gw90AvpqB6YFRQ",onInitializedListener);
 
 
         onInitializedListener = new YouTubePlayer.OnInitializedListener() {
